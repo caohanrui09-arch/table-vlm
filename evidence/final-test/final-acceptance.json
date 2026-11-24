@@ -1,0 +1,17 @@
+{
+  "accepted_vlm_settings": {
+    "min_pixels": 65536,
+    "max_pixels": 196608
+  },
+  "fixed_adapter_sha256": "5ba4f106312a738283916fb5c691376584539d0824c597e02f6485c995da250c",
+  "model_weights_changed": false,
+  "selected_before_test": true,
+  "post_test_reselection": false,
+  "test_now_consumed_for_evaluation": true,
+  "new_paid_work_started": false,
+  "demo_changed": false,
+  "test_manifest_sha256": "dbb0704a9675b04707210377c0f201a0449d9405650711322d93ffb233d6962c",
+  "primary_teds_delta": 0.0532132007127164,
+  "reference_paddle_not_claimed_inferior": true,
+  "all_450_scores_verified": true
+}

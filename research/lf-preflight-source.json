@@ -1,0 +1,13 @@
+{
+  "repo": "hiyouga/LlamaFactory",
+  "revision": "c683e59edd8f893abc5e1403184a1d0644817d2a",
+  "files": {
+    "data/loader.py": "f5f59ae8dcb65f95f16052d3c79645adbb02304ba3425682036a41728d0340d0",
+    "data/converter.py": "c596efb447fb50fc915f6aa5c4f228d5409fba83808e23015a1bcf3387a3ffbf",
+    "data/processor/supervised.py": "f1b4b8db32179f7471e7c0bf45806533f8cabe8ade98d3a6b427d80a94b959cf",
+    "data/template.py": "25681bdceb0d11e36a55455e293f16cb5c8f3d15b48df63eb1f3bdd863567932",
+    "data/mm_plugin.py": "a30cc247579ef836c76237a38aea8d473aad865a4cbd2a5a0e3a3534eb04787f",
+    "model/loader.py": "ed132ebc37129345f88c882cb928e3ca5294954e4040d4eb7d64324f38022ae9",
+    "model/patcher.py": "56a0b012612507bcc2f44363c01199dd47d81733f998ebdcccc883b9d4da2d0a"
+  }
+}

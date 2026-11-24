@@ -1,0 +1,12 @@
+# Standalone data/TEDS environment; the upstream full OmniDocBench is not installed.
+Pillow==11.3.0
+lxml==5.3.0
+apted==1.0.3
+Levenshtein==0.25.1
+tqdm==4.67.1
+PyYAML==6.0.2
+ImageHash==4.3.2
+numpy==2.2.6
+scipy==1.15.3
+PyWavelets==1.8.0
+

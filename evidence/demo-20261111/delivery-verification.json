@@ -1,0 +1,17 @@
+{
+  "file": "<DATA_ROOT>\\doc-table-vlm\\delivery-20261111\\table-vlm-presentation-update-20261111.zip",
+  "bytes": 37938,
+  "sha256": "e97d221336f4224524eeafa6390351d8a740477d8daba645ecc17c14341a1f4b",
+  "files": 24,
+  "crc_and_payload_sha256_passed": true,
+  "demo_api_and_html_download_passed": true,
+  "training_image_used": true,
+  "demo_tests_passed": 3,
+  "powershell_syntax_and_idempotent_start_passed": true,
+  "original_a4_a5_frozen_source_hashes_unchanged": true,
+  "test_generation_or_scoring_run": false,
+  "browser_pixel_screenshot_claimed": false,
+  "new_cloud_spending_cny": 0,
+  "demo_url": "http://127.0.0.1:7861",
+  "demo_revision": "a5-min65536-v1"
+}

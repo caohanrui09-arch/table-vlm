@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "samples": 150,
+  "historical_papers_excluded": 3469,
+  "historical_images_fingerprinted": 5253,
+  "paper_overlap": 0,
+  "byte_pixel_and_near_duplicate_recheck_passed": true,
+  "source_annotation_identity_passed": true,
+  "max_native_input_tokens": {
+    "4096": 274,
+    "65536": 274
+  },
+  "max_full_native_tokens": {
+    "4096": 3741,
+    "65536": 3741
+  },
+  "test_manifest_sha256": "dbb0704a9675b04707210377c0f201a0449d9405650711322d93ffb233d6962c",
+  "predictions_started_by_this_check": false,
+  "limitation": "pHash/dHash heuristic is not proof of semantic independence; annotations not exhaustively expert-reviewed"
+}

@@ -1,0 +1,159 @@
+{
+  "checked_at": "2026-10-29",
+  "timezone": "Asia/Hong_Kong",
+  "repositories": [
+    {
+      "repo": "QwenLM/Qwen3-VL",
+      "branch": "main",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushed_at": "2026-01-30T04:47:30Z",
+      "url": "https://github.com/QwenLM/Qwen3-VL",
+      "sha": "96588727e44c78b25ba03ea03b8e12f7e64fd0da",
+      "commit_date": "2026-01-30T04:47:30Z",
+      "commit_message": "Merge pull request #1971 from 2003jiahang/patch-1"
+    },
+    {
+      "repo": "hiyouga/LlamaFactory",
+      "branch": "main",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushed_at": "2026-10-21T07:23:24Z",
+      "url": "https://github.com/hiyouga/LlamaFactory",
+      "sha": "c683e59edd8f893abc5e1403184a1d0644817d2a",
+      "commit_date": "2026-10-21T07:23:24Z",
+      "commit_message": "[feat] add biren supa accelerator support (#10844)"
+    },
+    {
+      "repo": "modelscope/ms-swift",
+      "branch": "main",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushed_at": "2026-10-28T15:02:19Z",
+      "url": "https://github.com/modelscope/ms-swift",
+      "sha": "d907e329cf27391cd21ae19a7cb0b3c07dc46173",
+      "commit_date": "2026-10-28T15:02:19Z",
+      "commit_message": "feat: add MiniCPM-OCR-1.0 support (#10414)"
+    },
+    {
+      "repo": "PaddlePaddle/PaddleOCR",
+      "branch": "main",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushed_at": "2026-09-16T03:31:50Z",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "sha": "dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf",
+      "commit_date": "2026-09-16T03:30:53Z",
+      "commit_message": "docs: deduplicate images and streamline repository cloning (#18359)"
+    },
+    {
+      "repo": "opendatalab/OmniDocBench",
+      "branch": "main",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushed_at": "2026-09-11T10:01:16Z",
+      "url": "https://github.com/opendatalab/OmniDocBench",
+      "sha": "f133a71e9e91c3621c7ce8994200a7b394a06eb3",
+      "commit_date": "2026-09-11T10:01:16Z",
+      "commit_message": "Merge pull request #257 from dt-yy/main"
+    }
+  ],
+  "files": [
+    {
+      "repo": "QwenLM/Qwen3-VL",
+      "revision": "96588727e44c78b25ba03ea03b8e12f7e64fd0da",
+      "path": "LICENSE",
+      "url": "https://github.com/QwenLM/Qwen3-VL/blob/96588727e44c78b25ba03ea03b8e12f7e64fd0da/LICENSE"
+    },
+    {
+      "repo": "hiyouga/LlamaFactory",
+      "revision": "c683e59edd8f893abc5e1403184a1d0644817d2a",
+      "path": "LICENSE",
+      "url": "https://github.com/hiyouga/LlamaFactory/blob/c683e59edd8f893abc5e1403184a1d0644817d2a/LICENSE"
+    },
+    {
+      "repo": "modelscope/ms-swift",
+      "revision": "d907e329cf27391cd21ae19a7cb0b3c07dc46173",
+      "path": "LICENSE",
+      "url": "https://github.com/modelscope/ms-swift/blob/d907e329cf27391cd21ae19a7cb0b3c07dc46173/LICENSE"
+    },
+    {
+      "repo": "PaddlePaddle/PaddleOCR",
+      "revision": "dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf",
+      "path": "LICENSE",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR/blob/dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf/LICENSE"
+    },
+    {
+      "repo": "opendatalab/OmniDocBench",
+      "revision": "f133a71e9e91c3621c7ce8994200a7b394a06eb3",
+      "path": "LICENSE",
+      "url": "https://github.com/opendatalab/OmniDocBench/blob/f133a71e9e91c3621c7ce8994200a7b394a06eb3/LICENSE"
+    },
+    {
+      "repo": "hiyouga/LlamaFactory",
+      "revision": "c683e59edd8f893abc5e1403184a1d0644817d2a",
+      "path": "examples/train_lora/qwen3vl_lora_sft.yaml",
+      "url": "https://github.com/hiyouga/LlamaFactory/blob/c683e59edd8f893abc5e1403184a1d0644817d2a/examples/train_lora/qwen3vl_lora_sft.yaml"
+    },
+    {
+      "repo": "hiyouga/LlamaFactory",
+      "revision": "c683e59edd8f893abc5e1403184a1d0644817d2a",
+      "path": "data/README.md",
+      "url": "https://github.com/hiyouga/LlamaFactory/blob/c683e59edd8f893abc5e1403184a1d0644817d2a/data/README.md"
+    },
+    {
+      "repo": "modelscope/ms-swift",
+      "revision": "d907e329cf27391cd21ae19a7cb0b3c07dc46173",
+      "path": "examples/models/qwen3_vl/transformers.sh",
+      "url": "https://github.com/modelscope/ms-swift/blob/d907e329cf27391cd21ae19a7cb0b3c07dc46173/examples/models/qwen3_vl/transformers.sh"
+    },
+    {
+      "repo": "opendatalab/OmniDocBench",
+      "revision": "f133a71e9e91c3621c7ce8994200a7b394a06eb3",
+      "path": "src/metrics/table_metric.py",
+      "url": "https://github.com/opendatalab/OmniDocBench/blob/f133a71e9e91c3621c7ce8994200a7b394a06eb3/src/metrics/table_metric.py"
+    },
+    {
+      "repo": "opendatalab/OmniDocBench",
+      "revision": "f133a71e9e91c3621c7ce8994200a7b394a06eb3",
+      "path": "pyproject.toml",
+      "url": "https://github.com/opendatalab/OmniDocBench/blob/f133a71e9e91c3621c7ce8994200a7b394a06eb3/pyproject.toml"
+    },
+    {
+      "repo": "PaddlePaddle/PaddleOCR",
+      "revision": "dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf",
+      "path": "README.md",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR/blob/dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf/README.md"
+    },
+    {
+      "repo": "hiyouga/LlamaFactory",
+      "revision": "c683e59edd8f893abc5e1403184a1d0644817d2a",
+      "path": "src/llamafactory/hparams/finetuning_args.py",
+      "url": "https://github.com/hiyouga/LlamaFactory/blob/c683e59edd8f893abc5e1403184a1d0644817d2a/src/llamafactory/hparams/finetuning_args.py"
+    },
+    {
+      "repo": "QwenLM/Qwen3-VL",
+      "revision": "96588727e44c78b25ba03ea03b8e12f7e64fd0da",
+      "path": "qwen-vl-finetune/scripts/sft_qwen3_4b.sh",
+      "url": "https://github.com/QwenLM/Qwen3-VL/blob/96588727e44c78b25ba03ea03b8e12f7e64fd0da/qwen-vl-finetune/scripts/sft_qwen3_4b.sh"
+    },
+    {
+      "repo": "ibm-aur-nlp/PubTabNet",
+      "revision": "master",
+      "path": "README.md",
+      "url": "https://github.com/ibm-aur-nlp/PubTabNet/blob/master/README.md"
+    },
+    {
+      "repo": "ibm-aur-nlp/PubTabNet",
+      "revision": "master",
+      "path": "LICENSE.md",
+      "url": "https://github.com/ibm-aur-nlp/PubTabNet/blob/master/LICENSE.md"
+    }
+  ],
+  "limitations": [
+    "Read-only targeted source review, not a full dependency/security audit.",
+    "PubTabNet files read on master; freeze dataset revision and hashes before data acquisition.",
+    "No A training, throughput measurement, or effect evaluation has run.",
+    "GPU rentals and paid API use have not been initiated."
+  ]
+}

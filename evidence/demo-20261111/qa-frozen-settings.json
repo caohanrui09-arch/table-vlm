@@ -1,0 +1,23 @@
+{
+  "request_directory": "<DATA_ROOT>\\doc-table-vlm\\demo\\requests\\20261111T054152Z-407f6723",
+  "demo_revision": "a5-min65536-v1",
+  "frozen_parameters_verified": true,
+  "prompt_alignment_verified": true,
+  "q1_sha256": "5ba4f106312a738283916fb5c691376584539d0824c597e02f6485c995da250c",
+  "actual_grid": [
+    1,
+    8,
+    38
+  ],
+  "visual_tokens": 76,
+  "api_download_and_preview_passed": true,
+  "example_is_training_image": true,
+  "test_generation_or_scoring_run": false,
+  "versions": {
+    "torch": "2.6.0+cu124",
+    "transformers": "4.57.1",
+    "peft": "0.21.2"
+  },
+  "peak_allocated_mib": 4128.4453125,
+  "new_cloud_spending_cny": 0
+}

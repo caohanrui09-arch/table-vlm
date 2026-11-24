@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "table-vlm"
+version = "0.2.0"
+description = "Cropped English table image to HTML with a frozen Qwen3-VL-2B + Q1 LoRA adapter"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "No public license granted for this project; upstream components keep their own licenses" }
+authors = [{ name = "doc-table-vlm project" }]
+keywords = ["table-recognition", "document-ai", "qwen3-vl", "lora", "teds"]
+dependencies = []
+
+[project.optional-dependencies]
+# CPU tools: dataset audit, HTML/TEDS scoring, tests.
+data = [
+  "Pillow==11.3.0",
+  "lxml==5.3.0",
+  "apted==1.0.3",
+  "Levenshtein==0.25.1",
+  "tqdm==4.67.1",
+  "PyYAML==6.0.2",
+  "ImageHash==4.3.2",
+  "numpy==2.2.6",
+  "scipy==1.15.3",
+  "PyWavelets==1.8.0",
+]
+# UI only. The model worker can share this environment or use a separate one.
+demo = ["gradio==6.31.0"]
+# Model worker; install the CUDA build of torch separately from pytorch.org.
+gpu = ["transformers==4.57.1", "peft==0.18.1", "accelerate==1.11.0"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+table-vlm-demo = "table_vlm.demo:main"
+table-vlm-infer = "table_vlm.demo_infer:main"
+table-vlm-download = "table_vlm.download_model:main"
+table-vlm-evaluate = "table_vlm.evaluate:main"
+table-vlm-doctor = "table_vlm.doctor:main"
+
+[tool.setuptools]
+packages = ["table_vlm"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

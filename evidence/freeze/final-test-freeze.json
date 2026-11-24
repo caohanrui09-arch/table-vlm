@@ -1,0 +1,94 @@
+{
+  "selected_model": "q1",
+  "selected_preprocessing": {
+    "min_pixels": 65536,
+    "max_pixels": 196608
+  },
+  "baseline_preprocessing": {
+    "min_pixels": 4096,
+    "max_pixels": 196608
+  },
+  "test_samples": 150,
+  "test_manifest_sha256": "dbb0704a9675b04707210377c0f201a0449d9405650711322d93ffb233d6962c",
+  "q1_sha256": "5ba4f106312a738283916fb5c691376584539d0824c597e02f6485c995da250c",
+  "paddle": {
+    "config_sha256": "8bab200c290b48ad91146aab177bec57465d2a9125fda366e014cbbff6ecd647",
+    "model_receipts": {
+      "PP-OCRv4_mobile_det": {
+        "model": "PP-OCRv4_mobile_det",
+        "source_url": "https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/PP-OCRv4_mobile_det_infer.tar",
+        "archive_sha256": "d212d7a9684e33696f3c817ff1dd8ff23a942c5d4449e6f19c8f3e8259a266ab",
+        "files": [
+          {
+            "path": "inference.json",
+            "sha256": "05feef1acb00aa4cd7362b15f7f501fc4f99d7b1fa73c1c871e0c7b1504b0f5c",
+            "bytes": 229777
+          },
+          {
+            "path": "inference.yml",
+            "sha256": "4f5bd0def48e20194d87d4c184a3ae3007a1299de7fed0ef763d3e7e873e77f6",
+            "bytes": 903
+          },
+          {
+            "path": "inference.pdiparams",
+            "sha256": "54a85087b4d31fa3ea4e4aba100169a1ec3e3274cd3352b9068b3cfccbca7829",
+            "bytes": 4692937
+          }
+        ],
+        "integrity_note": "Recorded SHA256 for reproducibility; publisher checksum not supplied by this URL."
+      },
+      "PP-OCRv4_mobile_rec": {
+        "model": "PP-OCRv4_mobile_rec",
+        "source_url": "https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/PP-OCRv4_mobile_rec_infer.tar",
+        "archive_sha256": "f71ee33646159e43ea5dcb9f0467259ba75e403e6f7e9a9a7d2c6208d36b92ec",
+        "files": [
+          {
+            "path": "inference.pdiparams",
+            "sha256": "948b8d2ca6ad4bd7b64c0ee3fb838a06db87d4cf57137173ce409c995df21012",
+            "bytes": 10766823
+          },
+          {
+            "path": "inference.json",
+            "sha256": "30f78ace76b2cce756abba97eb17f4c79e776d88ad68dd44a787a3db84b407a7",
+            "bytes": 217718
+          },
+          {
+            "path": "inference.yml",
+            "sha256": "1207e8ba3d3dad6b99115f7febf515f5ffc0d87ed77366d7a4b4b3f1709c005d",
+            "bytes": 53543
+          }
+        ],
+        "integrity_note": "Recorded SHA256 for reproducibility; publisher checksum not supplied by this URL."
+      },
+      "SLANet_plus": {
+        "model": "SLANet_plus",
+        "source_url": "https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/SLANet_plus_infer.tar",
+        "archive_sha256": "68526c5c6573a8a17cdc14805e026f11c2545e42d89a1317bb58d3e1e4b58318",
+        "files": [
+          {
+            "path": "inference.pdiparams",
+            "sha256": "012986b0e2bfe90410618bfb4b7cf4fcb6c978caefd84c63c2934f8387b09ab8",
+            "bytes": 7666515
+          },
+          {
+            "path": "inference.json",
+            "sha256": "aba91cd956f4a1648b0f89df94c3cf8acaa066b47e2b689d109843b40d8545a2",
+            "bytes": 315660
+          },
+          {
+            "path": "inference.yml",
+            "sha256": "8a6372d3269a6f112fe13a2da7952a84da6e112c10a3146cbb43de5bd01d19fa",
+            "bytes": 2035
+          }
+        ],
+        "integrity_note": "Recorded SHA256 for reproducibility; publisher checksum not supplied by this URL."
+      }
+    }
+  },
+  "protocol_before_test_sha256": "1081acccc2a397166bf25ff70174fad4502f33ee2034f00b996fa9d301a38516",
+  "test_selection_receipt_sha256": "c03c2428056098a39ecbb718508632847510a93c3c64d7f2ef1310bbb987d7f6",
+  "post_test_selection_allowed": false,
+  "budget_cumulative_cap_cny": 100,
+  "latest_user_reported_spent_cny": 50,
+  "new_predictions_started": false
+}

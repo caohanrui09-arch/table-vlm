@@ -1,0 +1,9 @@
+# Install only into a separate training environment, not the existing parent env.
+# CUDA-enabled torch/torchvision/torchaudio wheels must be installed for the host.
+llamafactory @ git+https://github.com/hiyouga/LlamaFactory.git@c683e59edd8f893abc5e1403184a1d0644817d2a
+transformers==4.57.1
+accelerate==1.11.0
+peft==0.18.1
+trl==0.24.0
+datasets==4.0.0
+

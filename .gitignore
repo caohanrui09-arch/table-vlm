@@ -1,0 +1,17 @@
+# Virtual environments, caches and generated demo output
+.venv/
+.venv-*/
+.inference-deps/
+.cache/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+demo-output/
+dist/
+release/
+handoff/
+
+# The 4.25GB base weight is downloaded, never committed.
+models/Qwen3-VL-2B-Instruct/model.safetensors
+models/Qwen3-VL-2B-Instruct/*.part

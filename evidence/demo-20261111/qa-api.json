@@ -1,0 +1,11 @@
+{
+  "api_passed": true,
+  "status": "识别完成，请核对文字、数字及合并单元格。  总耗时 48.8 秒。",
+  "preview_iframe_sandboxed": true,
+  "download": "<DATA_ROOT>\\doc-table-vlm\\delivery-20261111\\client-downloads\\cca0d6e30a3da72843838ac11cbcad4977684ad6de05fc1400a3425f2e074868\\table.html",
+  "download_bytes": 852,
+  "raw_html_chars": 437,
+  "example_source": "original train PMC3485118_004_00",
+  "test_set_used": false,
+  "new_cloud_spending_cny": 0
+}

@@ -1,0 +1,6 @@
+{
+  "synthetic": true,
+  "generator": "make_example.py",
+  "purpose": "UI/CLI functional example only; contains no third-party table image or paper content",
+  "license": "same as the repository"
+}

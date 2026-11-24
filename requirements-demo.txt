@@ -1,0 +1,5 @@
+# UI only. The worker may share this environment (recommended on a fresh
+# machine) or use a separate CUDA environment passed with --gpu-python.
+# For a single environment also install: requirements-data.txt,
+# transformers==4.57.1 peft==0.18.1 accelerate==1.11.0 and a CUDA torch build.
+gradio==6.31.0

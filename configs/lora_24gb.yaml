@@ -1,0 +1,45 @@
+# Adapted from LlamaFactory c683e59.../examples/train_lora/qwen3vl_lora_sft.yaml.
+# Apache-2.0. Run from the doc-table-vlm directory; local fixed model required.
+model_name_or_path: models/Qwen3-VL-2B-Instruct
+trust_remote_code: false
+image_max_pixels: 196608
+image_min_pixels: 4096
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 8
+lora_alpha: 16
+lora_target: q_proj,v_proj
+freeze_vision_tower: true
+freeze_multi_modal_projector: true
+template: qwen3_vl_nothink
+dataset_dir: data/prepared/official/lf
+media_dir: data/prepared/official
+dataset: table_train
+eval_dataset: table_dev
+cutoff_len: 4096
+packing: false
+preprocessing_num_workers: 2
+dataloader_num_workers: 0
+output_dir: runs/lora-clean
+overwrite_output_dir: false
+logging_steps: 5
+save_steps: 100
+save_total_limit: 2
+report_to: none
+per_device_train_batch_size: 1
+per_device_eval_batch_size: 1
+gradient_accumulation_steps: 8
+gradient_checkpointing: true
+skip_memory_metrics: false
+learning_rate: 0.0001
+num_train_epochs: 2.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.05
+bf16: true
+optim: adamw_torch
+eval_strategy: steps
+eval_steps: 100
+seed: 42
+data_seed: 42
+

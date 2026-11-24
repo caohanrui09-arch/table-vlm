@@ -1,0 +1,152 @@
+{
+  "repo": "ibm-aur-nlp/PubTabNet",
+  "revision": "8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5",
+  "purpose": "Official 20 training examples; smoke only, not an independent benchmark.",
+  "annotation_license": "CDLA-Permissive-1.0; images subject to PMC Open Access Subset terms",
+  "files": [
+    {
+      "path": "LICENSE.md",
+      "git_blob_sha1": "a1728fc7b4ad7b555c42094ce26c1eca2a247f26",
+      "size": 364,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/LICENSE.md"
+    },
+    {
+      "path": "examples/PMC1626454_002_00.png",
+      "git_blob_sha1": "b43b232707d97cadc59ede62d170b1cf402ecbad",
+      "size": 32701,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/examples/PMC1626454_002_00.png"
+    },
+    {
+      "path": "examples/PMC2753619_002_00.png",
+      "git_blob_sha1": "ec942185815917c3746452c1cede68f0c528c525",
+      "size": 4691,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/examples/PMC2753619_002_00.png"
+    },
+    {
+      "path": "examples/PMC2759935_007_01.png",
+      "git_blob_sha1": "dcc453d3d98c1d5f42902bd860ba0c786e00dcfe",
+      "size": 13205,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/examples/PMC2759935_007_01.png"
+    },
+    {
+      "path": "examples/PMC2838834_005_00.png",
+      "git_blob_sha1": "720d82a2a0196b21e0bc109f67e36c0f6e208661",
+      "size": 58415,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/examples/PMC2838834_005_00.png"
+    },
+    {
+      "path": "examples/PMC3519711_003_00.png",
+      "git_blob_sha1": "edf34b29652a95ccd715813023f23eb18b168f23",
+      "size": 19683,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/examples/PMC3519711_003_00.png"
+    },
+    {
+      "path": "examples/PMC3826085_003_00.png",
+      "git_blob_sha1": "3a8bd9a442705fe3b6c127adacb81ba7f3b92928",
+      "size": 10012,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/examples/PMC3826085_003_00.png"
+    },
+    {
+      "path": "examples/PMC3907710_006_00.png",
+      "git_blob_sha1": "2dc6a4c34383b5f3cfa35b11aecf2b7062ba586e",
+      "size": 3492,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/examples/PMC3907710_006_00.png"
+    },
+    {
+      "path": "examples/PMC4003957_018_00.png",
+      "git_blob_sha1": "9358b0efe9eb6f11703fe69deb8353c72c6424a0",
+      "size": 53616,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/examples/PMC4003957_018_00.png"
+    },
+    {
+      "path": "examples/PMC4172848_007_00.png",
+      "git_blob_sha1": "d582ecc5ff7747c7efbd807f6e1b93f59ac1df09",
+      "size": 34084,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/examples/PMC4172848_007_00.png"
+    },
+    {
+      "path": "examples/PMC4517499_004_00.png",
+      "git_blob_sha1": "1b2a5824b4a6a7200b97edfd637595019a313050",
+      "size": 5722,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/examples/PMC4517499_004_00.png"
+    },
+    {
+      "path": "examples/PMC4682394_003_00.png",
+      "git_blob_sha1": "eea5be6e3ff8e15ff4007cc78cb997eceb10170d",
+      "size": 28194,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/examples/PMC4682394_003_00.png"
+    },
+    {
+      "path": "examples/PMC4776821_005_00.png",
+      "git_blob_sha1": "fb1c60f720b4905db9bff54c782cbc106a12f454",
+      "size": 6503,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/examples/PMC4776821_005_00.png"
+    },
+    {
+      "path": "examples/PMC4840965_004_00.png",
+      "git_blob_sha1": "d1b9789358f1b7ed3550e9debfe152f460c2af4a",
+      "size": 24328,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/examples/PMC4840965_004_00.png"
+    },
+    {
+      "path": "examples/PMC5134617_013_00.png",
+      "git_blob_sha1": "1be2586d29163e06987401f33d8ee471610cf415",
+      "size": 17090,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/examples/PMC5134617_013_00.png"
+    },
+    {
+      "path": "examples/PMC5198506_004_00.png",
+      "git_blob_sha1": "d4f7d375407c876a55924c91a51408dd26d58fd8",
+      "size": 6347,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/examples/PMC5198506_004_00.png"
+    },
+    {
+      "path": "examples/PMC5332562_005_00.png",
+      "git_blob_sha1": "452a57dbc907731382061a717c13a2f9532410dc",
+      "size": 24703,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/examples/PMC5332562_005_00.png"
+    },
+    {
+      "path": "examples/PMC5402779_004_00.png",
+      "git_blob_sha1": "75dc262f40da49a11fadfca10ae747fbd3abdeed",
+      "size": 27643,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/examples/PMC5402779_004_00.png"
+    },
+    {
+      "path": "examples/PMC5577841_001_00.png",
+      "git_blob_sha1": "aee3983e3397d81e09f573bf0b11714b6e145fa6",
+      "size": 8732,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/examples/PMC5577841_001_00.png"
+    },
+    {
+      "path": "examples/PMC5679144_002_01.png",
+      "git_blob_sha1": "532ce576e840f0c6bdde619d5b1571d3142c9de6",
+      "size": 8764,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/examples/PMC5679144_002_01.png"
+    },
+    {
+      "path": "examples/PMC5897438_004_00.png",
+      "git_blob_sha1": "e06e5ed5a79d963aaf819464e3f68637963df2ed",
+      "size": 9451,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/examples/PMC5897438_004_00.png"
+    },
+    {
+      "path": "examples/PubTabNet_Examples.jsonl",
+      "git_blob_sha1": "536d68f9a5fde10c8e0d90f929468b0f43b590f2",
+      "size": 146162,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/examples/PubTabNet_Examples.jsonl"
+    },
+    {
+      "path": "examples/utils.py",
+      "git_blob_sha1": "eb56788558dfe6f30b80352f71ed5029a820d997",
+      "size": 1553,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/examples/utils.py"
+    },
+    {
+      "path": "src/LICENSE",
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://raw.githubusercontent.com/ibm-aur-nlp/PubTabNet/8ffde9024bd331f5a61c3c549fdf30dd3c3e43a5/src/LICENSE"
+    }
+  ]
+}

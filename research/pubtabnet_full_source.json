@@ -1,0 +1,15 @@
+{
+  "repo": "ajimeno/PubTabNet",
+  "revision": "06963b1af16203f4633c718e2c50109eb57ed658",
+  "filename": "pubtabnet.tar.gz",
+  "bytes": 11244059914,
+  "lfs_sha256": "90c55e733c85c98edf6d350b77f1e4c23767577555fc932e44ad723674de8d3e",
+  "url": "https://huggingface.co/datasets/ajimeno/PubTabNet/resolve/06963b1af16203f4633c718e2c50109eb57ed658/pubtabnet.tar.gz",
+  "metadata_license": "cdla-sharing-1.0",
+  "origin": "https://github.com/ibm-aur-nlp/PubTabNet",
+  "notes": [
+    "Official upstream README points to this dataset repository.",
+    "GitHub annotation license and HF card tags differ; retain both (see DATA_POLICY.md).",
+    "Metadata receipt does not mean archive downloaded or contents inspected."
+  ]
+}

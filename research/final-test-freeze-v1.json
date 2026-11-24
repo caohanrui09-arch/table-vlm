@@ -1,0 +1,152 @@
+{
+  "freeze_id": "final-test-v1",
+  "created_utc": "2026-11-02T04:41:45.459571+00:00",
+  "selected_model": "q1",
+  "selected_adapter_relative": "runs/formal-clean-20261031T051007Z/q1-adapter",
+  "selection_rule": "highest mean TEDS on frozen clean dev150 among Q0/Q1/Q2; ties prefer clean recipe",
+  "development_teds": {
+    "q0": 0.5207549450364524,
+    "q1": 0.7324578019455544,
+    "q2": 0.7186549348428456
+  },
+  "dev_analysis_sha256": "233e6de58fc7ee506d61c251d8f2c792924d787fceacfee63b7726382d2dd776",
+  "q2_result_zip_sha256": "7fd5d214671bfc196648d367b0557fcb7a8a62ab2d1a386264f46966c81da9e5",
+  "test_samples": 150,
+  "test_manifest_sha256": "b895c3b2406116ea5c160b285a9762aac91bd19b932a2b40dc7e7fcdf2a86e19",
+  "test_methods": [
+    "q0",
+    "q1",
+    "p0"
+  ],
+  "training_ran_in_final_phase": false,
+  "seed": 42,
+  "image_min_pixels": 4096,
+  "inference": {
+    "model": "Qwen/Qwen3-VL-2B-Instruct",
+    "revision": "89644892e4d85e24eaac8bacfd4f463576704203",
+    "max_pixels": 196608,
+    "max_new_tokens": 4096,
+    "do_sample": false,
+    "prompt": "Convert this table image to HTML. Return only one complete <table> element. Preserve all rows, cell text, rowspan and colspan. Use <td> for cells, <thead> and <tbody> for row groups, and <b>, <i>, <sup>, <sub> when visible. Do not add explanations, CSS, or Markdown."
+  },
+  "normalization_version": "table-html-v2-data-bbox",
+  "failure_policy": "All150 remain in denominator; missing/error/invalid/truncated score zero; no repair",
+  "bound_files": {
+    "runs/formal-clean-20261031T051007Z/q1-adapter/adapter_config.json": "d139d16ff83f52f9b4a4bb7705c055b22ef160dad536107568c9918b62481c6b",
+    "runs/formal-clean-20261031T051007Z/q1-adapter/adapter_model.safetensors": "5ba4f106312a738283916fb5c691376584539d0824c597e02f6485c995da250c",
+    "models/Qwen3-VL-2B-Instruct/source_receipt.json": "c7af7b49bc75857f0138a7b0af493cd5e128a3372baa811f2869c28454124b94",
+    "data/prepared/formal-clean/train.jsonl": "ea2102f1f135a0191dda71477e19732c8f4e7a5d13b1ea11406f7c20a56f3873",
+    "data/prepared/formal-clean/dev.jsonl": "1a526e4ff2ccecf518ca266225b80a02fcd783d62a37efdffded6fcc604017d2"
+  },
+  "source_sha256": {
+    "table_vlm/predict.py": "3d92480bc4a419802aca569cb5e0454837536263ffc42873cdcf07691d74a53b",
+    "table_vlm/evaluate.py": "b439df9db31cdfe327b1abe00b57911ad3b5e6f429dac47b7c1cf2252dfe52b3",
+    "table_vlm/html_utils.py": "93b16aab2e4faf4986801f80ee4b1b91aed95671a1fb4551084370fe5a63118d",
+    "table_vlm/prompts.py": "e1613cd228592fd08478a97822409bc1d3b00303dd3b31c30fb8861dda56a7db",
+    "table_vlm/predict_paddle_cpu.py": "3d894b3e3818c77391a999c12e2787bd790a5b883d3542a2202906916a974ef9",
+    "table_vlm/final_test_protocol.py": "7b989bbfe5738243d9a1f3e458c5d28f16d465ee0db6731db74b41aa1d230175",
+    "scripts/cloud_final_test.sh": "465f6745d3399ccc806c0237ddd98e5e3995c70cac420975ec1aef42b4ddcce3",
+    "configs/paddle_cpu.yaml": "8bab200c290b48ad91146aab177bec57465d2a9125fda366e014cbbff6ecd647",
+    "research/upstream/opendatalab__OmniDocBench/src/metrics/table_metric.py": "1fd160d0f8a25883277be795af5f7224cde8ae29c7fd383c89e9600f62c083d1"
+  },
+  "model_files_sha256": {
+    "models/Qwen3-VL-2B-Instruct/README.md": "5fc5be1ca9a3910399bd6239ee5086ab5d82a2a59c5d2b00e887a8835cc110e4",
+    "models/Qwen3-VL-2B-Instruct/chat_template.json": "6f8a6a55027e3da5160105556cda5dd69f6423f1c32645f6730d32de7773d0c4",
+    "models/Qwen3-VL-2B-Instruct/config.json": "bec4b3d446efa05807365c9e1cec03ac590836879d02f3a6da879971154bdd3b",
+    "models/Qwen3-VL-2B-Instruct/generation_config.json": "1e241830b48b397cb0900101421df5450baddc7adf01e5fc86b5615865f3bae4",
+    "models/Qwen3-VL-2B-Instruct/merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+    "models/Qwen3-VL-2B-Instruct/model.safetensors": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0",
+    "models/Qwen3-VL-2B-Instruct/preprocessor_config.json": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+    "models/Qwen3-VL-2B-Instruct/tokenizer.json": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+    "models/Qwen3-VL-2B-Instruct/tokenizer_config.json": "c2da771801886ad9ae98181793ffd3dfb7f1af30f6f7c6a4e15d7dbba52e2399",
+    "models/Qwen3-VL-2B-Instruct/video_preprocessor_config.json": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+    "models/Qwen3-VL-2B-Instruct/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  "gpu_versions": {
+    "torch": "2.6.0+cu124",
+    "transformers": "4.57.1",
+    "peft": "0.18.1"
+  },
+  "paddle": {
+    "config_sha256": "8bab200c290b48ad91146aab177bec57465d2a9125fda366e014cbbff6ecd647",
+    "versions": {
+      "paddlepaddle": "3.2.2",
+      "paddleocr": "3.3.2",
+      "paddlex": "3.3.13"
+    },
+    "model_receipts": {
+      "PP-OCRv4_mobile_det": {
+        "model": "PP-OCRv4_mobile_det",
+        "source_url": "https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/PP-OCRv4_mobile_det_infer.tar",
+        "archive_sha256": "d212d7a9684e33696f3c817ff1dd8ff23a942c5d4449e6f19c8f3e8259a266ab",
+        "files": [
+          {
+            "path": "inference.json",
+            "sha256": "05feef1acb00aa4cd7362b15f7f501fc4f99d7b1fa73c1c871e0c7b1504b0f5c",
+            "bytes": 229777
+          },
+          {
+            "path": "inference.yml",
+            "sha256": "4f5bd0def48e20194d87d4c184a3ae3007a1299de7fed0ef763d3e7e873e77f6",
+            "bytes": 903
+          },
+          {
+            "path": "inference.pdiparams",
+            "sha256": "54a85087b4d31fa3ea4e4aba100169a1ec3e3274cd3352b9068b3cfccbca7829",
+            "bytes": 4692937
+          }
+        ],
+        "integrity_note": "Recorded SHA256 for reproducibility; publisher checksum not supplied by this URL."
+      },
+      "PP-OCRv4_mobile_rec": {
+        "model": "PP-OCRv4_mobile_rec",
+        "source_url": "https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/PP-OCRv4_mobile_rec_infer.tar",
+        "archive_sha256": "f71ee33646159e43ea5dcb9f0467259ba75e403e6f7e9a9a7d2c6208d36b92ec",
+        "files": [
+          {
+            "path": "inference.pdiparams",
+            "sha256": "948b8d2ca6ad4bd7b64c0ee3fb838a06db87d4cf57137173ce409c995df21012",
+            "bytes": 10766823
+          },
+          {
+            "path": "inference.json",
+            "sha256": "30f78ace76b2cce756abba97eb17f4c79e776d88ad68dd44a787a3db84b407a7",
+            "bytes": 217718
+          },
+          {
+            "path": "inference.yml",
+            "sha256": "1207e8ba3d3dad6b99115f7febf515f5ffc0d87ed77366d7a4b4b3f1709c005d",
+            "bytes": 53543
+          }
+        ],
+        "integrity_note": "Recorded SHA256 for reproducibility; publisher checksum not supplied by this URL."
+      },
+      "SLANet_plus": {
+        "model": "SLANet_plus",
+        "source_url": "https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/SLANet_plus_infer.tar",
+        "archive_sha256": "68526c5c6573a8a17cdc14805e026f11c2545e42d89a1317bb58d3e1e4b58318",
+        "files": [
+          {
+            "path": "inference.pdiparams",
+            "sha256": "012986b0e2bfe90410618bfb4b7cf4fcb6c978caefd84c63c2934f8387b09ab8",
+            "bytes": 7666515
+          },
+          {
+            "path": "inference.json",
+            "sha256": "aba91cd956f4a1648b0f89df94c3cf8acaa066b47e2b689d109843b40d8545a2",
+            "bytes": 315660
+          },
+          {
+            "path": "inference.yml",
+            "sha256": "8a6372d3269a6f112fe13a2da7952a84da6e112c10a3146cbb43de5bd01d19fa",
+            "bytes": 2035
+          }
+        ],
+        "integrity_note": "Recorded SHA256 for reproducibility; publisher checksum not supplied by this URL."
+      }
+    },
+    "cpu_threads": 4,
+    "workers": 4
+  },
+  "post_test_policy": "Report once as measured; do not change model, prompt, caps or score rule based on test; no test-set model selection."
+}

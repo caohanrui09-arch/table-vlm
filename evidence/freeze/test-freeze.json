@@ -1,0 +1,25 @@
+{
+  "test_manifest_sha256": "dbb0704a9675b04707210377c0f201a0449d9405650711322d93ffb233d6962c",
+  "samples": 150,
+  "unique_papers": 150,
+  "excluded_historical_papers": 3469,
+  "excluded_historical_images": 5253,
+  "historical_manifests": 113,
+  "source_candidates_sha256": "0c60995d93ed32c9be4dc4ecb863848876d1b216704ffc9b7a297f89d69649c5",
+  "ranking": "SHA256(final-resolution-20261111:filename), ascending",
+  "rejections": [
+    {
+      "id": "PMC5946264_003_00",
+      "reason": "predeclared_native_length_limit"
+    }
+  ],
+  "protocol_sha256": "1081acccc2a397166bf25ff70174fad4502f33ee2034f00b996fa9d301a38516",
+  "historical_exclusion_sha256": "e4f33db29cbaab87e8e8436f3825d934f8d209e9fa2766ff6ffac6745ee21330",
+  "paper_overlap": 0,
+  "predictions_started": false,
+  "limitations": [
+    "Perceptual near-duplicate isolation is heuristic",
+    "Base-model pretraining contamination unknown",
+    "Dual-setting length<=4032 restricts evaluation population"
+  ]
+}

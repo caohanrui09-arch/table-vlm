@@ -1,0 +1,14 @@
+{
+  "repo": "JohannesBuchner/imagehash",
+  "license": "BSD-2-Clause",
+  "archived": false,
+  "pushed_at": "2026-10-12T15:06:42Z",
+  "release": "4.3.2",
+  "revision": "e1941e96898e56422f7df678dd094c8d5b2b46db",
+  "files_read": [
+    "imagehash/__init__.py",
+    "LICENSE"
+  ],
+  "decision": "Reuse installed ImageHash pHash and dHash, no remote code execution. Conservative candidate flags are not proof of duplicates; preserve candidates and record exclusion policy.",
+  "risk": "Low adaptation cost, adds NumPy/SciPy/PyWavelets in isolated data env only; targeted source reading, not a full security audit."
+}

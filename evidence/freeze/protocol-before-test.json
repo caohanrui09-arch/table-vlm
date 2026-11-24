@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-11",
+  "candidate_freeze": {
+    "selected_for": "new unseen-paper independent evaluation only",
+    "selection_date": "2026-11-11",
+    "run": "dev-resolution-20261110T144630Z",
+    "candidate_binding": {
+      "manifest_sha256": "1a526e4ff2ccecf518ca266225b80a02fcd783d62a37efdffded6fcc604017d2",
+      "adapter_sha256": "5ba4f106312a738283916fb5c691376584539d0824c597e02f6485c995da250c",
+      "model_receipt_sha256": "c7af7b49bc75857f0138a7b0af493cd5e128a3372baa811f2869c28454124b94",
+      "versions": {
+        "torch": "2.6.0+cu124",
+        "transformers": "4.57.1",
+        "peft": "0.18.1"
+      },
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "prompt_text": "\nConvert this table image to HTML. Return only one complete <table> element. Preserve all rows, cell text, rowspan and colspan. Use <td> for cells, <thead> and <tbody> for row groups, and <b>, <i>, <sup>, <sub> when visible. Do not add explanations, CSS, or Markdown.",
+      "image_pixels": [
+        65536,
+        196608
+      ],
+      "max_new_tokens": 4096,
+      "max_input_tokens": 2048,
+      "do_sample": false,
+      "repetition_penalty": 1.0,
+      "dtype": "bfloat16",
+      "attention": "sdpa",
+      "generation_seed": 42
+    },
+    "baseline_binding": {
+      "manifest_sha256": "1a526e4ff2ccecf518ca266225b80a02fcd783d62a37efdffded6fcc604017d2",
+      "adapter_sha256": "5ba4f106312a738283916fb5c691376584539d0824c597e02f6485c995da250c",
+      "model_receipt_sha256": "c7af7b49bc75857f0138a7b0af493cd5e128a3372baa811f2869c28454124b94",
+      "versions": {
+        "torch": "2.6.0+cu124",
+        "transformers": "4.57.1",
+        "peft": "0.18.1"
+      },
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "prompt_text": "\nConvert this table image to HTML. Return only one complete <table> element. Preserve all rows, cell text, rowspan and colspan. Use <td> for cells, <thead> and <tbody> for row groups, and <b>, <i>, <sup>, <sub> when visible. Do not add explanations, CSS, or Markdown.",
+      "image_pixels": [
+        4096,
+        196608
+      ],
+      "max_new_tokens": 4096,
+      "max_input_tokens": 2048,
+      "do_sample": false,
+      "repetition_penalty": 1.0,
+      "dtype": "bfloat16",
+      "attention": "sdpa",
+      "generation_seed": 42
+    },
+    "dev_gate_passed": true,
+    "new_test_evaluated": false,
+    "demo_changed": false,
+    "further_dev_threshold_search": false,
+    "independent_rescoring": {
+      "passed": true,
+      "methods": {
+        "baseline": {
+          "summary_identical": true,
+          "all_150_samples_identical": true
+        },
+        "min65536": {
+          "summary_identical": true,
+          "all_150_samples_identical": true
+        }
+      },
+      "all_300_sample_records_identical": true,
+      "same_input_same_output_94": true,
+      "changed_inputs": 56,
+      "fixed_q1_verified": true,
+      "cloud_seconds": 6945.799991726875,
+      "test_used": false,
+      "training_started": false,
+      "new_paid_work_started": false
+    }
+  },
+  "rank": "SHA256(final-resolution-20261111:filename), ascending",
+  "source": "cached official val candidates",
+  "samples": 150,
+  "one_table_per_paper": true,
+  "all_previous_project_manifests_excluded": true,
+  "near_duplicate_rule": "pHash<=4 AND dHash<=4 AND aspect difference<=5%, quarantine against history and within new test",
+  "eligibility": "usable image/HTML; full native question+answer<=4032 in BOTH fixed min settings",
+  "settings": {
+    "min_pixels": [
+      4096,
+      65536
+    ],
+    "max_pixels": 196608,
+    "max_new_tokens": 4096
+  },
+  "primary": "all150 mean TEDS difference candidate-baseline; no post-test setting/model selection",
+  "secondary": [
+    "TEDS-S",
+    "valid/truncated/invalid",
+    "new and recovered failures",
+    "time"
+  ],
+  "paddle": "Existing fixed CPU PP-OCRv4-mobile+SLANet_plus reference, not used to reselect candidate",
+  "budget_total_cny": 100,
+  "user_reported_spent_cny": 50,
+  "remaining_cap_cny": 50,
+  "predictions_started": false,
+  "pretraining_contamination_unknown": true
+}

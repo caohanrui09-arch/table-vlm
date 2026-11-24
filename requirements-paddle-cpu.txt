@@ -1,0 +1,4 @@
+# Independent CPU environment. No paddlepaddle-gpu, Torch or VLM fine-tuning.
+paddlepaddle==3.2.2
+paddleocr==3.3.2
+paddlex[ocr]==3.3.13

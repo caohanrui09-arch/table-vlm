@@ -1,0 +1,114 @@
+{
+  "final_test": {
+    "n_papers": 150,
+    "training_seeds": [
+      42
+    ],
+    "unit": "one table per independent PMC paper",
+    "bootstrap": {
+      "samples": 20000,
+      "seed": 42,
+      "kind": "paired-paper percentile 95% CI"
+    },
+    "methods": {
+      "p0": {
+        "teds": 0.7467397947497506,
+        "document_sd": 0.1727759966942032,
+        "median": 0.7791426741912415,
+        "ci95": [
+          0.7184658956239506,
+          0.7742897313378542
+        ],
+        "teds_s": 0.9694164444935719,
+        "valid_html": 150,
+        "truncated": 0,
+        "invalid_html": 0
+      },
+      "q0": {
+        "teds": 0.5418617845970444,
+        "document_sd": 0.3254031315335697,
+        "median": 0.6571295759683183,
+        "ci95": [
+          0.48803878218254604,
+          0.5932089044939709
+        ],
+        "teds_s": 0.6520790004573979,
+        "valid_html": 119,
+        "truncated": 30,
+        "invalid_html": 1
+      },
+      "q1": {
+        "teds": 0.6888605479284725,
+        "document_sd": 0.2949774794092798,
+        "median": 0.7793126618732705,
+        "ci95": [
+          0.6409631988391216,
+          0.7342585437148318
+        ],
+        "teds_s": 0.7736345979478246,
+        "valid_html": 131,
+        "truncated": 17,
+        "invalid_html": 2
+      }
+    },
+    "contrasts": {
+      "q1_minus_q0": {
+        "mean_delta": 0.14699876333142814,
+        "paired_sd": 0.3357276782466972,
+        "median_delta": 0.07898793615139083,
+        "paired_dz": 0.43785118968776676,
+        "ci95": [
+          0.09352501113660709,
+          0.2009473977604391
+        ],
+        "wins": 115,
+        "losses": 26,
+        "ties": 9,
+        "shapiro_diagnostic_p": 1.0525197132086614e-08,
+        "two_sided_exact_sign_p": 1.482381211092684e-14,
+        "holm_sign_p": 2.964762422185368e-14
+      },
+      "q1_minus_p0": {
+        "mean_delta": -0.057879246821278076,
+        "paired_sd": 0.30406637554864463,
+        "median_delta": 0.0014442008474876422,
+        "paired_dz": -0.1903506979910001,
+        "ci95": [
+          -0.10747317733657326,
+          -0.010451058109785267
+        ],
+        "wins": 76,
+        "losses": 74,
+        "ties": 0,
+        "shapiro_diagnostic_p": 2.6081974996064202e-08,
+        "two_sided_exact_sign_p": 0.9349614855143201,
+        "holm_sign_p": 0.9349614855143201
+      }
+    },
+    "both_valid_diagnostic": {
+      "n": 109,
+      "delta": 0.11368179822847746,
+      "note": "Outcome-selected diagnostic only, not the final primary cohort."
+    },
+    "runtime": {
+      "q0": {
+        "generation_seconds_sum": 5258.223208703101,
+        "median_seconds": 22.945910815149546,
+        "mean_output_tokens": 1746.5666666666666
+      },
+      "q1": {
+        "generation_seconds_sum": 3779.307438008487,
+        "median_seconds": 14.511855486780405,
+        "mean_output_tokens": 1099.4733333333334
+      }
+    }
+  },
+  "development_teds": {
+    "p0": 0.7488548550598473,
+    "q0": 0.5207549450364524,
+    "q1": 0.7324578019455544,
+    "q2": 0.7186549348428456
+  },
+  "freeze_sha256": "80ce2724b3388781a0aa46ecd5715bdf16783a63874486c583d36be2076cf731",
+  "selected_model": "q1"
+}
